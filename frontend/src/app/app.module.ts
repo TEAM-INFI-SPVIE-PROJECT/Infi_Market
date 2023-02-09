@@ -8,14 +8,16 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { LoginComponent } from './core/components/login/login.component';
-import { LogoutComponent } from './core/components/logout/logout.component';
+import { DashboardComponent } from './core/components/dashboard/dashboard.component';
+import { DashboardCashierComponent } from './core/components/dashboard-cashier/dashboard-cashier.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    LogoutComponent,
+    DashboardComponent,
+    DashboardCashierComponent,
   ],
   imports: [
     BrowserModule,
